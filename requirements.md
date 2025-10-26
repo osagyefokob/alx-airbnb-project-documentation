@@ -35,3 +35,31 @@ Handle user registration, login, and role-based access control (guest, host, adm
   "email": "kofi@example.com",
   "password": "securePass123"
 }
+
+
+{
+  "message": "User registered successfully",
+  "user_id": "uuid",
+  "token": "jwt_token_here"
+}
+
+
+{
+  "name": "Beachfront Apartment",
+  "description": "Ocean view, 2 bedrooms, WiFi",
+  "price_per_night": 350,
+  "location": "Accra"
+}
+
+
+{
+  "message": "Property created successfully",
+  "property_id": "uuid"
+}
+
+
+{
+  "message": "Booking created successfully",
+  "booking_id": "uuid",
+  "status": "pending"
+}
